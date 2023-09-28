@@ -1,11 +1,12 @@
 import React from 'react';
 
-const CardWidget = () => {
+const CartWidget = () => {
   return (
     <div>
         <i class="bi bi-cart3"></i>
+        <span>0</span>
     </div>
   )
 }
 
-export default CardWidget
+export default CartWidget
